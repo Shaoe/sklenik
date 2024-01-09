@@ -4,7 +4,7 @@ const Header = () => (
       <a role="tab" className="tab  flex-auto ">
         <p className="prose  lg:prose-xl font-bold">Domov</p>
       </a>
-      <a role="tab" className="tab  flex-auto">
+      <a href="#sklenik_description" role="tab" className="tab  flex-auto">
         <p className="prose  lg:prose-xl font-bold">OZ skleníky</p>
       </a>
       <a role="tab" className="tab  flex-auto">

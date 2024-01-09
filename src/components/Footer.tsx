@@ -1,6 +1,6 @@
 const Footer = () => (
   <div className="h-10 lg:h-40">
-    <footer className="footer footer-center p-4  bg-base-200 text-base-content ">
+    <footer className="footer footer-center p-4 gap-y-6 bg-base-200 text-base-content ">
       <p className="prose  prose-xl font-bold">
         Kontakt
         <a
@@ -22,7 +22,7 @@ const Footer = () => (
         </svg>
       </a>
     </footer>
-    <footer className="footer footer-center p-5 bg-base-200 text-base-content border-t border-base-300">
+    <footer className="footer footer-center p-5 gap-y-0 bg-base-200 text-base-content border-t border-base-300">
       <p className="prose  prose-xl font-bold">Podporili nás</p>
 
       <div className="grid grid-flow-col gap-4 ">
@@ -30,7 +30,10 @@ const Footer = () => (
         <img src="logoAKAop.png" className="w-1/3 max-w-xl" />
       </div>
     </footer>
-    <article className="prose max-w-full p-10 bg-base-200 text-base-content border-t border-base-300">
+    <article
+      id="sklenik_description"
+      className="prose max-w-full p-10 bg-base-200 text-base-content border-t border-base-300"
+    >
       <h3>Čo je skleník?</h3>
       <p>
         Je združenie ľudí, ktorí sa snažia o revitalizáciu pôvodného objektu
