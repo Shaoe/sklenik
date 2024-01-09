@@ -1,6 +1,6 @@
 const Footer = () => (
-  <div className="h-10">
-    <footer className="footer footer-center p-8  bg-base-200 text-base-content ">
+  <div className="h-10 lg:h-40">
+    <footer className="footer footer-center p-4  bg-base-200 text-base-content ">
       <p className="prose  prose-xl font-bold">
         Kontakt
         <a

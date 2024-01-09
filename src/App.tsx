@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="flex flex-col h-screen justify-between">
       <Header />
-      <main className="mb-auto h-10  grid place-items-center flex-grow">
-        <img src={sklenikLogo} className="w-1/3 " />
+      <main className="mb-auto  grid place-items-center flex-grow">
+        <img src={sklenikLogo} className="w-1/3 lg:w-1/5" />
       </main>
       <Footer />
     </div>
