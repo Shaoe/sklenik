@@ -13,4 +13,5 @@ export default {
     extend: {},
   },
   plugins: [DaisyUIPlugin, Typography],
+  darkMode: "false",
 };
