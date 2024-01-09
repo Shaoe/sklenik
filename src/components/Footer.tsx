@@ -32,7 +32,7 @@ const Footer = () => (
     </footer>
     <article
       id="sklenik_description"
-      className="prose max-w-full p-10 bg-base-200 text-base-content border-t border-base-300"
+      className="prose max-w-full p-10 bg-base-200 text-base-content border-t border-base-300 text-justify lg:text-left"
     >
       <h3>Čo je skleník?</h3>
       <p>
