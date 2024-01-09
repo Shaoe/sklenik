@@ -5,10 +5,10 @@ const Header = () => (
         <p className="prose prose-stone prose-xl font-bold">Domov</p>
       </a>
       <a role="tab" className="tab tab-lg flex-auto">
-        <p className="prose prose-stone prose-xl font-bold">OZ sklenik</p>
+        <p className="prose prose-stone prose-xl font-bold">OZ skleníky</p>
       </a>
       <a role="tab" className="tab tab-lg flex-auto">
-        <p className="prose prose-stone prose-xl font-bold">Galeria</p>
+        <p className="prose prose-stone prose-xl font-bold">Galéria</p>
       </a>
     </div>
   </header>

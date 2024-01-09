@@ -22,7 +22,7 @@ const Footer = () => (
         </svg>
       </a>
     </footer>
-    <footer className=" footer-center p-5 bg-base-200 text-base-content border-t border-base-300">
+    <footer className="footer footer-center p-5 bg-base-200 text-base-content border-t border-base-300">
       <p className="prose prose-stone prose-xl font-bold">Podporili nás</p>
 
       <div className="grid grid-flow-col gap-4 ">
