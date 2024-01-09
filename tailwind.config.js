@@ -12,6 +12,8 @@ export default {
   theme: {
     extend: {},
   },
+  daisyui: {
+    themes: ["light"],
+  },
   plugins: [DaisyUIPlugin, Typography],
-  darkMode: "class",
 };
