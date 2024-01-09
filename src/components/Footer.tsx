@@ -22,12 +22,12 @@ const Footer = () => (
         </svg>
       </a>
     </footer>
-    <footer className="footer footer-center p-5 bg-base-200 text-base-content border-t border-base-300">
+    <footer className=" footer-center p-5 bg-base-200 text-base-content border-t border-base-300">
       <p className="prose prose-stone prose-xl font-bold">Podporili nás</p>
 
-      <div className="flex  md:flex md:flex-grow space-x-2">
-        <img src="BAlogo_centr_black.svg" className="w-2/3 max-w-3xl" />
-        <img src="logoAKAop.png" className="w-1/3 max-w-sm " />
+      <div className="grid grid-flow-col gap-4 ">
+        <img src="BAlogo_centr_black.svg" className="w-2/3 max-w-xl" />
+        <img src="logoAKAop.png" className="w-1/3 max-w-xl" />
       </div>
     </footer>
   </div>
