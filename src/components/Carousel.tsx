@@ -1,7 +1,7 @@
 import img1 from "../assets/1_logo.jpg";
 import img2 from "../assets/2_logo.jpg";
 import img3 from "../assets/3_logo.jpg";
-import sklenikLogo from "../assets/logo_final.png";
+// import sklenikLogo from "../assets/logo_final.png";
 
 const Carousel = () => (
   <div className="carousel w-full">
