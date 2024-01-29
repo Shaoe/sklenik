@@ -1,6 +1,6 @@
 const Header = () => (
   <header className="h-20 bg-base-200 grid place-items-center ">
-    <div role="tablist" className="tabs grid grid-flow-col gap-4">
+    <div role="tablist" className="p-3 tabs grid grid-flow-col gap-4">
       <a role="tab" className="tab  flex-auto ">
         <p className="prose  lg:prose-xl font-bold">Domov</p>
       </a>
