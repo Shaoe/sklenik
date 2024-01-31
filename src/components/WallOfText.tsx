@@ -1,7 +1,7 @@
 const WallOfText = () => (
   <article
     id="sklenik_description"
-    className="prose max-w-full bg-base-200 text-base-content border-t border-base-300 text-justify lg:text-left"
+    className="prose max-w-full text-base-content border-t border-base-300 text-justify lg:text-left"
   >
     <p className="prose  prose-xl font-bold">OZ SKLENÍKY</p>
     <h3>Čo je skleník?</h3>

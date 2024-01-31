@@ -3,14 +3,14 @@ import Sponsors from "./Sponsors";
 import WallOfText from "./WallOfText";
 
 const Footer = () => (
-  <div className="h-min-screen p-5 lg:p-20 bg-base-200">
+  <div className="h-min-screen p-5 lg:p-20 bg-base-0">
     {/* <div className="h-10 p-5 lg:h-40 lg:p-20 bg-base-200"> */}
     <Sponsors />
     <WallOfText />
     <Galery />
-    <div className="bg-base-200 border-t border-base-300">
+    <div className="border-t border-base-300">
       <br />
-      <footer className="footer gap-y-6 bg-base-200 text-base-content ">
+      <footer className="footer gap-y-6 text-base-content ">
         <nav>
           <p className="prose  prose-xl font-bold">KONTAKT</p>
           <a
