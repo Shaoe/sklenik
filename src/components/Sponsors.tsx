@@ -4,7 +4,7 @@ import park_logo from "../assets/park_logo.png";
 
 const Sponsors = () => (
   <footer className="footer footer-center p-5 gap-y-0 bg-base-200 text-base-content border-t border-base-300">
-    <p className="prose  prose-xl font-bold">Podporili nás</p>
+    <p className="prose  prose-xl font-bold">PODPORILI NÁS</p>
 
     <div className="grid grid-flow-col gap-0 ">
       <img src={petejKA_logo} className="w-1/4 max-w-xl" />

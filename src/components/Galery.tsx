@@ -4,7 +4,7 @@ import img3 from "../assets/3.jpg";
 
 const Galery = () => (
   <div id="galeria" className="">
-    <p className="prose  prose-xl font-bold">Fotogaléria</p>
+    <p className="prose  prose-xl font-bold">FOTOGALÉRIA</p>
     <div className="grid p-2 grid-cols-2">
       <p className="prose font-bold">2021</p>
       <img src={img1} className="w-full p-1 lg:p-5" />

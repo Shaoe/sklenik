@@ -3,6 +3,7 @@ const WallOfText = () => (
     id="sklenik_description"
     className="prose max-w-full bg-base-200 text-base-content border-t border-base-300 text-justify lg:text-left"
   >
+    <p className="prose  prose-xl font-bold">OZ SKLENÍKY</p>
     <h3>Čo je skleník?</h3>
     <p>
       Je združenie ľudí, ktorí sa snažia o revitalizáciu pôvodného objektu

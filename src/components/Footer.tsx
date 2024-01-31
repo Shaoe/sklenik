@@ -12,7 +12,7 @@ const Footer = () => (
       <br />
       <footer className="footer gap-y-6 bg-base-200 text-base-content ">
         <nav>
-          <p className="prose  prose-xl font-bold">Kontakt</p>
+          <p className="prose  prose-xl font-bold">KONTAKT</p>
           <a
             href={"mailto:oz.skleniky@gmail.com"}
             className="underline text-blue-400 hover:text-blue-600"
