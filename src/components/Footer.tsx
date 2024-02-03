@@ -8,11 +8,11 @@ const Footer = () => (
     <Sponsors />
     <WallOfText />
     <Galery />
-    <div className="border-t border-base-300">
+    <div id="kontakt" className="border-t border-base-300">
       <br />
       <footer className="footer gap-y-6 text-base-content ">
         <nav>
-          <p className="prose  prose-xl font-bold">KONTAKT</p>
+          <p className="font-bold">KONTAKT</p>
           <a
             href={"mailto:oz.skleniky@gmail.com"}
             className="underline text-blue-400 hover:text-blue-600"
