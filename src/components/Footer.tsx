@@ -1,9 +1,11 @@
 import Galery from "./Galery";
 import Sponsors from "./Sponsors";
 import WallOfText from "./WallOfText";
+import fbLogo from "../assets/logo_facebook.png";
+import instaLogo from "../assets/logo_instagram.png";
 
 const Footer = () => (
-  <div className="h-min-screen p-5 lg:p-20 bg-base-0">
+  <div className="h-min-screen p-5 lg:pl-40 lg:pr-40 bg-base-0">
     {/* <div className="h-10 p-5 lg:h-40 lg:p-20 bg-base-200"> */}
     <Sponsors />
     <WallOfText />
@@ -31,21 +33,20 @@ const Footer = () => (
           <p>IBAN: SK19 8330 0000 0024 0216 1877</p>
           <p>BIC/SWIFT: FIOZSKBAXXX</p>
           <br />
-          <p>PODPORTE NÁS DAROVANÍM 2%</p>
         </nav>
         <nav>
-          <a href={"https://www.facebook.com/profile.php?id=100091756742140"}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="25"
-              viewBox="0 0 25 25"
-              className="fill-current"
-            >
-              <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-            </svg>
-          </a>
+          <div>
+            <a href={"https://www.facebook.com/profile.php?id=100091756742140"}>
+              <img src={fbLogo} className="max-h-12" />
+            </a>
+            {/* <a href={""}> */}
+            <img src={instaLogo} className="max-h-12" />
+            {/* </a> */}
+          </div>
         </nav>
+      </footer>
+      <footer className="footer footer-center p-5 gap-y-0 text-base-content border-t border-base-300">
+        <p className="font-bold">PODPORTE NÁS DAROVANÍM 2%</p>
       </footer>
     </div>
     {/* </div> */}
