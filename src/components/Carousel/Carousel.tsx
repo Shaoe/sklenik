@@ -7,7 +7,7 @@ interface Props {
 
 const Carousel = (props: Props) => {
   const content = props.children;
-  const timerCD = 3000;
+  const timerCD = 5000;
   const [counter, setCounter] = useState(1);
   const [mousedOver, setMousedOver] = useState(false);
 
