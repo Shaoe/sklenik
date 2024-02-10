@@ -5,7 +5,7 @@ const Header = () => (
   <header className="h-20 grid grid-cols-2 place-items-center">
     <div className="flex">
       <a className="absolute left-5 top-0 flex justify-center items-center flex-nowrap p-4 bg-base-0">
-        <img src={logo} className="max-h-12 lg:block" />
+        <img src={logo} className="max-h-9 lg:max-h-12 lg:block" />
       </a>
     </div>
     <div
@@ -23,7 +23,7 @@ const Header = () => (
       </a>
     </div>
     <div className="visible lg:invisible">
-      <div className="absolute right-2 top-3">
+      <div className="absolute right-6 top-3">
         <Menu />
       </div>
     </div>
