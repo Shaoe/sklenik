@@ -14,11 +14,9 @@ import img3 from "./assets/3.jpg";
 function App() {
   return (
     <div className="">
-      <div className="h-screen flex flex-col">
-        <div className="">
-          <Header />
-        </div>
-        <div className="mb-auto pl-40 pr-40 grow">
+      <div className="lg:h-screen flex flex-col">
+        <Header />
+        <div className="mb-auto pl-10 pr-10 lg:pl-40 lg:pr-40 grow ">
           <Carousel>
             <LayeredImage img={img1} overlay={logo} />
             <LayeredImage img={img2} overlay={logo} />
