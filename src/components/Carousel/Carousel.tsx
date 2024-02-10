@@ -22,6 +22,10 @@ const Carousel = (props: Props) => {
     return () => clearInterval(interval);
   });
 
+  const handleMouse = () => {
+    setMousedOver(!mousedOver);
+  };
+
   const handleNext = () => {
     if (counter !== content.length) {
       setCounter(counter + 1);
@@ -36,7 +40,11 @@ const Carousel = (props: Props) => {
     </div>
   ));
 
-  return <div>{activeSlide}</div>;
+  return (
+    <div onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
+      {activeSlide}
+    </div>
+  );
 };
 
 export default Carousel;
