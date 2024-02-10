@@ -22,21 +22,21 @@ const Menu = () => {
           </button>
         </Dropdown.Toggle>
         <Dropdown.Menu className="w-52 mt-4 z-30">
-          <Dropdown.Item>
-            <a href="#sklenik_description" role="tab" className="tab">
+          <a href="#sklenik_description">
+            <Dropdown.Item>
               <p className="font-bold">OZ SKLENÍKY</p>
-            </a>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <a href="#galeria" role="tab" className="tab">
+            </Dropdown.Item>
+          </a>
+          <a href="#galeria">
+            <Dropdown.Item>
               <p className="font-bold">FOTOGALÉRIA</p>
-            </a>
-          </Dropdown.Item>
-          <Dropdown.Item>
-            <a href="#kontakt" role="tab" className="tab">
+            </Dropdown.Item>
+          </a>
+          <a href="#kontakt">
+            <Dropdown.Item>
               <p className=" font-bold">KONTAKT</p>
-            </a>
-          </Dropdown.Item>
+            </Dropdown.Item>
+          </a>
         </Dropdown.Menu>
       </Dropdown>
     </>
