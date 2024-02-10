@@ -1,0 +1,15 @@
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.not-show {
+  display: none;
+}
+
+.show {
+  animation: fade 1.5s ease-in-out;
+}
