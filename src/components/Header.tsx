@@ -1,11 +1,13 @@
 import logo from "../assets/logo_final.png";
 
 const Header = () => (
-  <header className="h-20 bg-base-200 grid place-items-center z-30">
-    <div role="tablist" className="p-3 tabs grid grid-flow-col gap-4">
-      <a role="tab" className="tab  flex-auto ">
-        <img src={logo} className="max-h-12" />
+  <header className="h-20 bg-base-200 grid grid-cols-2 place-items-center z-30">
+    <div className="flex">
+      <a className="absolute left-3 top-4  flex justify-center items-center flex-nowrap">
+        <img src={logo} className="max-h-12 hidden lg:block" />
       </a>
+    </div>
+    <div role="tablist" className="p-3 tabs grid grid-flow-col gap-4 absolute">
       <a href="#sklenik_description" role="tab" className="tab">
         <p className="font-bold">OZ SKLENÍKY</p>
       </a>
