@@ -1,7 +1,7 @@
 import logo from "../assets/logo_final.png";
 
 const Header = () => (
-  <header className="h-20 bg-base-200 grid grid-cols-2 place-items-center z-30">
+  <header className="h-20 bg-base-200 grid grid-cols-2 place-items-center">
     <div className="flex">
       <a className="absolute left-3 top-4  flex justify-center items-center flex-nowrap">
         <img src={logo} className="max-h-12 hidden lg:block" />

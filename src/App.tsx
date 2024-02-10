@@ -14,22 +14,17 @@ import img3 from "./assets/3.jpg";
 function App() {
   return (
     <div className="">
-      <div className="lg:h-screen flex flex-col">
+      <div className="lg:h-screen flex flex-col ">
         <Header />
-        <div className="mb-auto pl-10 pr-10 lg:pl-40 lg:pr-40 grow ">
+        <div className="pl-10 pr-10 lg:pl-60 lg:pr-60 overflow-hidden">
           <Carousel>
             <LayeredImage img={img1} overlay={logo} />
             <LayeredImage img={img2} overlay={logo} />
             <LayeredImage img={img3} overlay={logo} />
           </Carousel>
         </div>
-        {/* <div className="flex-none h-20 w-full bg-base-200 grid place-items-center  absolute bottom-0  z-30">
-          logo
-        </div> */}
 
-        {/* <div className="">
-          <BottomLine />
-        </div> */}
+        <BottomLine />
       </div>
       <Footer />
     </div>
