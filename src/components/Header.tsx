@@ -7,7 +7,10 @@ const Header = () => (
         <img src={logo} className="max-h-12 hidden lg:block" />
       </a>
     </div>
-    <div role="tablist" className="p-3 tabs grid grid-flow-col gap-4 absolute">
+    <div
+      role="tablist"
+      className="p-3 tabs grid grid-flow-col gap-2 lg:gap-40 absolute"
+    >
       <a href="#sklenik_description" role="tab" className="tab">
         <p className="font-bold">OZ SKLENÍKY</p>
       </a>
