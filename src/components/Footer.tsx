@@ -5,7 +5,7 @@ import fbLogo from "../assets/logo_facebook.png";
 import instaLogo from "../assets/logo_instagram.png";
 
 const Footer = () => (
-  <div className="p-5 lg:pl-60 lg:pr-60 bg-base-0">
+  <div className="pl-5 pr-5 lg:pl-60 lg:pr-60 bg-base-0">
     <Sponsors />
     <WallOfText />
     <Galery />

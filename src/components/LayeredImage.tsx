@@ -9,7 +9,7 @@ const LayeredImage = (props: Props) => {
   return (
     <div className="container mx-auto relative">
       <img src={img} alt="" className="w-full h-auto" />
-      <div className=" w-1/2 h-1/2 absolute top-1/4 left-1/4 rounded-lg p-4">
+      <div className=" w-1/2 h-1/2 absolute top-1/4 left-1/4 p-4 lg:p-20">
         <img src={overlay} />
       </div>
     </div>
