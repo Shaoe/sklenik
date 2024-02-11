@@ -1,14 +1,14 @@
 const SupportUs = () => {
   const zamestnanecUrl =
-    "https://drive.google.com/uc?export=download&id=1hzHa43GVO_43xKVfnpBfgUZ8CIIBhKEl";
+    "https://drive.google.com/file/d/1hzHa43GVO_43xKVfnpBfgUZ8CIIBhKEl/view";
   const fizOsobaAUrl =
-    "https://drive.google.com/uc?export=download&id=1B7KnvvR7tUhbaHQMy1JVkU0BOsDy0T8I";
+    "https://drive.google.com/file/d/1B7KnvvR7tUhbaHQMy1JVkU0BOsDy0T8I/view";
   const fizOsobaBUrl =
-    "https://drive.google.com/uc?export=download&id=1WgQJdsSDYutHZUmL8gbgkBTeFYD-rhXe";
+    "https://drive.google.com/file/d/1WgQJdsSDYutHZUmL8gbgkBTeFYD-rhXe/view";
   const pravOsobaUrl =
-    "https://drive.google.com/uc?export=download&id=1Vli_UFIBFNT-s9U2hnIZJZyQNDNrnxAu";
-  const dobrovolnikUrl =
-    "https://drive.google.com/uc?export=download&id=1hzHa43GVO_43xKVfnpBfgUZ8CIIBhKEl"; //TODO zla linka
+    "https://drive.google.com/file/d/1Vli_UFIBFNT-s9U2hnIZJZyQNDNrnxAu/view";
+  // const dobrovolnikUrl =
+  //   "https://drive.google.com/file/d/1hzHa43GVO_43xKVfnpBfgUZ8CIIBhKEl/view"; //TODO zla linka
 
   return (
     <article
@@ -25,7 +25,10 @@ const SupportUs = () => {
           zaplatení dane.
         </li>
         <li>
-          2. <a href={zamestnanecUrl}>Vyplňte vyhlásenie o poukázaní 2% dane</a>
+          2.{" "}
+          <a target="_blank" rel="noopener noreferrer" href={zamestnanecUrl}>
+            Vyplňte vyhlásenie o poukázaní 2% dane
+          </a>
           . Uveďte meno, rodné číslo, bydlisko a sumu zodpovedajúcu 2%
           zaplatenej dane.
         </li>
@@ -46,12 +49,16 @@ const SupportUs = () => {
         </li>
         <li>
           2. Ak máte iba príjmy zo závislej činnosti vyplňte{" "}
-          <a href={fizOsobaAUrl}>Daňové priznanie fyzických osôb TYP A</a>,
-          Potvrdenie o podaní daňového priznania, alebo ak máte príjmy podľa § 5
-          až 8 zákona č. 595/2003 Z. z. o dani z príjmov v znení neskorších
+          <a target="_blank" rel="noopener noreferrer" href={fizOsobaAUrl}>
+            Daňové priznanie fyzických osôb TYP A
+          </a>
+          , Potvrdenie o podaní daňového priznania, alebo ak máte príjmy podľa §
+          5 až 8 zákona č. 595/2003 Z. z. o dani z príjmov v znení neskorších
           predpisov vyplňte{" "}
-          <a href={fizOsobaBUrl}>Daňové priznanie fyzických osôb TYP B</a>,
-          Potvrdenie o podaní daňového priznania.
+          <a target="_blank" rel="noopener noreferrer" href={fizOsobaBUrl}>
+            Daňové priznanie fyzických osôb TYP B
+          </a>
+          , Potvrdenie o podaní daňového priznania.
         </li>
         <li>
           3. Riadne vyplnené daňové priznanie pošlite do <b>31.3.2024</b> na váš
@@ -72,7 +79,10 @@ const SupportUs = () => {
           opačnom prípade môžu poukázať len 1,5 % zaplatenej dane.
         </li>
         <li>
-          2. <a href={pravOsobaUrl}>Daňové priznanie právnických osôb</a>{" "}
+          2.{" "}
+          <a target="_blank" rel="noopener noreferrer" href={pravOsobaUrl}>
+            Daňové priznanie právnických osôb
+          </a>{" "}
           podajte elektronicky do <b>31.3.2024</b>.
         </li>
       </ul>
@@ -81,11 +91,10 @@ const SupportUs = () => {
       <p>
         Ak ste v roku 2023 pracovali aspoň 40 hodín ako dobrovoľník, máte
         možnosť venovať 3% z dane -{" "}
-        <a href={dobrovolnikUrl}>
-          požiadajte organizáciu, pre ktorú ste pracovali ako dobrovoľník/čka o
-          potvrdenie tejto práce
-        </a>
-        .
+        {/* <a target="_blank" rel="noopener noreferrer" href={dobrovolnikUrl}> */}
+        požiadajte organizáciu, pre ktorú ste pracovali ako dobrovoľník/čka o
+        potvrdenie tejto práce
+        {/* </a> */}.
       </p>
       <br />
     </article>
