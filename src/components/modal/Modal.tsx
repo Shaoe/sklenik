@@ -22,7 +22,7 @@ const MyModal = (props: Props) => {
       <div style={{ cursor: "pointer" }} onClick={handleShow}>
         {props.wrap}
         <Modal
-          className="!max-w-[calc(60svw)]"
+          className="!lg:max-w-[calc(60svw)]"
           backdrop={true}
           responsive={!isLg}
           ref={ref}
