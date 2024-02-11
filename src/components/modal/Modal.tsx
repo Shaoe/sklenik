@@ -1,5 +1,6 @@
 import { ReactNode, useCallback, useRef } from "react";
 import { Modal } from "react-daisyui";
+import { useMediaQuery } from "react-responsive";
 
 interface Props {
   wrap: ReactNode;
@@ -12,6 +13,10 @@ const MyModal = (props: Props) => {
   const handleShow = useCallback(() => {
     ref.current?.showModal();
   }, [ref]);
+
+  const isLg = useMediaQuery({ query: `(max-width: 992px)` });
+  console.log(isLg);
+
   return (
     <div className="font-sans">
       <div style={{ cursor: "pointer" }} onClick={handleShow}>
@@ -19,10 +24,10 @@ const MyModal = (props: Props) => {
         <Modal
           className="!max-w-[calc(60svw)]"
           backdrop={true}
-          responsive={true}
+          responsive={!isLg}
           ref={ref}
         >
-          {props.title && (
+          {!isLg && props.title && (
             <Modal.Header className="font-bold">{props.title}</Modal.Header>
           )}
           <Modal.Body>{props.children}</Modal.Body>
