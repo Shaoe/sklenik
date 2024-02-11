@@ -15,7 +15,7 @@ const SupportUs = () => {
       id="support_us"
       className="prose max-w-full text-base-content border-t border-base-300 text-justify lg:text-left"
     >
-      <p className="font-bold">PODPORTE NÁS DAROVANÍM 2%</p>
+      <p className="font-bold text-center">PODPORTE NÁS DAROVANÍM 2%</p>
 
       <p className=" font-bold">Zamestnanci</p>
       <ul>
