@@ -13,3 +13,19 @@
 .show {
   animation: fade 0.33s ease-in-out;
 }
+
+.prev {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  transform: translateY(-50%);
+}
+
+.next {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  right: 6px;
+  transform: translateY(-50%);
+}

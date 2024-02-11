@@ -18,7 +18,7 @@ function App() {
         <Header />
         <div className="pl-10 pr-10 lg:pl-60 lg:pr-60 overflow-hidden">
           <a href="#support_us">
-            <Carousel>
+            <Carousel timerCD={5000}>
               <LayeredImage img={img1} overlay={logo} />
               <LayeredImage img={img2} overlay={logo} />
               <LayeredImage img={img3} overlay={logo} />

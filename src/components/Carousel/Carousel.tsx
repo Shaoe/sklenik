@@ -3,23 +3,25 @@ import "./Carousel.css";
 
 interface Props {
   children: ReactNode[];
+  controls?: boolean;
+  timerCD?: number;
 }
 
-const Carousel = (props: Props) => {
-  const content = props.children;
-  const timerCD = 5000;
+const Carousel = ({ children, controls, timerCD }: Props) => {
   const [counter, setCounter] = useState(1);
   const [mousedOver, setMousedOver] = useState(false);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (!mousedOver) {
-        handleNext();
-      } else {
-        clearInterval(interval);
-      }
-    }, timerCD);
-    return () => clearInterval(interval);
+    if (timerCD) {
+      const interval = setInterval(() => {
+        if (!mousedOver) {
+          handleNext();
+        } else {
+          clearInterval(interval);
+        }
+      }, timerCD);
+      return () => clearInterval(interval);
+    }
   });
 
   const handleMouse = () => {
@@ -27,22 +29,39 @@ const Carousel = (props: Props) => {
   };
 
   const handleNext = () => {
-    if (counter !== content.length) {
+    if (counter !== children.length) {
       setCounter(counter + 1);
     } else {
       setCounter(1);
     }
   };
 
-  const activeSlide = content.map((item, index) => (
+  const handlePre = () => {
+    if (counter !== 1) {
+      setCounter(counter - 1);
+    } else {
+      setCounter(children.length);
+    }
+  };
+
+  const activeSlide = children.map((item, index) => (
     <div className={counter - 1 === index ? "show" : "not-show"} key={index}>
       {item}
     </div>
   ));
-
   return (
     <div onMouseEnter={handleMouse} onMouseLeave={handleMouse}>
       {activeSlide}
+      {controls && (
+        <>
+          <button className="prev" onClick={handlePre}>
+            &#10094;
+          </button>
+          <button className="next" onClick={handleNext}>
+            &#10095;
+          </button>
+        </>
+      )}
     </div>
   );
 };
