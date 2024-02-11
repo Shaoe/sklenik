@@ -17,11 +17,13 @@ function App() {
       <div className="lg:h-screen flex flex-col ">
         <Header />
         <div className="pl-10 pr-10 lg:pl-60 lg:pr-60 overflow-hidden">
-          <Carousel>
-            <LayeredImage img={img1} overlay={logo} />
-            <LayeredImage img={img2} overlay={logo} />
-            <LayeredImage img={img3} overlay={logo} />
-          </Carousel>
+          <a href="#support_us">
+            <Carousel>
+              <LayeredImage img={img1} overlay={logo} />
+              <LayeredImage img={img2} overlay={logo} />
+              <LayeredImage img={img3} overlay={logo} />
+            </Carousel>
+          </a>
         </div>
 
         <BottomLine />

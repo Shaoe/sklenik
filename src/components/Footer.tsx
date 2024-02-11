@@ -3,12 +3,14 @@ import Sponsors from "./Sponsors";
 import WallOfText from "./WallOfText";
 import fbLogo from "../assets/logo_facebook.png";
 import instaLogo from "../assets/logo_instagram.png";
+import SupportUs from "./SupportUs";
 
 const Footer = () => (
   <div className="pl-5 pr-5 lg:pl-60 lg:pr-60 bg-base-0">
     <Sponsors />
     <WallOfText />
     <Galery />
+    <SupportUs />
     <div id="kontakt" className="border-t border-base-300">
       <br />
       <footer className="footer gap-y-6 text-base-content ">
@@ -44,11 +46,7 @@ const Footer = () => (
           </div>
         </nav>
       </footer>
-      <footer className="footer footer-center p-5 gap-y-0 text-base-content border-t border-base-300">
-        <p className="font-bold">PODPORTE NÁS DAROVANÍM 2%</p>
-      </footer>
     </div>
-    {/* </div> */}
   </div>
 );
 
