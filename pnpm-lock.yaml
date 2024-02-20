@@ -8,9 +8,6 @@ dependencies:
   '@types/node':
     specifier: ^20.11.19
     version: 20.11.19
-  '@types/webpack-env':
-    specifier: ^1.18.4
-    version: 1.18.4
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -988,10 +985,6 @@ packages:
   /@types/semver@7.5.6:
     resolution: {integrity: sha512-dn1l8LaMea/IjDoHNd9J52uBbInB796CDffS6VdIxvqYCPSG0V0DzHp76GpaWnlhg88uYyPbXCDIowa86ybd5A==}
     dev: true
-
-  /@types/webpack-env@1.18.4:
-    resolution: {integrity: sha512-I6e+9+HtWADAWeeJWDFQtdk4EVSAbj6Rtz4q8fJ7mSr1M0jzlFcs8/HZ+Xb5SHzVm1dxH7aUiI+A8kA8Gcrm0A==}
-    dev: false
 
   /@typescript-eslint/eslint-plugin@6.16.0(@typescript-eslint/parser@6.16.0)(eslint@8.56.0)(typescript@5.3.3):
     resolution: {integrity: sha512-O5f7Kv5o4dLWQtPX4ywPPa+v9G+1q1x8mz0Kr0pXUtKsevo+gIJHLkGc8RxaZWtP8RrhwhSNIWThnW42K9/0rQ==}
