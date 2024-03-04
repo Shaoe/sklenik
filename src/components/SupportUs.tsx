@@ -20,12 +20,11 @@ const SupportUs = () => {
       <p className=" font-bold">Zamestnanci</p>
       <ul>
         <li>
-          1. Do <b>15.2.2025</b> požiadajte zamestnávateľa o vykonanie ročného
+          Do <b>15.2.2025</b> požiadajte zamestnávateľa o vykonanie ročného
           zúčtovania preddavkov na daň z príjmov a vystavenie potvrdenia o
           zaplatení dane.
         </li>
         <li>
-          2.{" "}
           <a target="_blank" rel="noopener noreferrer" href={zamestnanecUrl}>
             Vyplňte vyhlásenie o poukázaní 2% dane
           </a>
@@ -33,7 +32,7 @@ const SupportUs = () => {
           zaplatenej dane.
         </li>
         <li>
-          3. Najneskôr do <b>30.4.2024</b> pošlite vyhlásenie daňovému úradu v
+          Najneskôr do <b>30.4.2024</b> pošlite vyhlásenie daňovému úradu v
           mieste vášho trvalého bydliska.
         </li>
       </ul>
@@ -43,12 +42,12 @@ const SupportUs = () => {
       </p>
       <ul>
         <li>
-          1. Vypočítajte si Vaše 2% z dane z príjmov fyzickej osoby - to je
+          Vypočítajte si Vaše 2% z dane z príjmov fyzickej osoby - to je
           maximálna suma, ktorú môžete poukázať v prospech našej organizácie.
           Poukázať môžete aj menej ako 2%, ale suma nesmie byť nižšia ako 3€.
         </li>
         <li>
-          2. Ak máte iba príjmy zo závislej činnosti vyplňte{" "}
+          Ak máte iba príjmy zo závislej činnosti vyplňte{" "}
           <a target="_blank" rel="noopener noreferrer" href={fizOsobaAUrl}>
             Daňové priznanie fyzických osôb TYP A
           </a>
@@ -61,7 +60,7 @@ const SupportUs = () => {
           , Potvrdenie o podaní daňového priznania.
         </li>
         <li>
-          3. Riadne vyplnené daňové priznanie pošlite do <b>31.3.2024</b> na váš
+          Riadne vyplnené daňové priznanie pošlite do <b>31.3.2024</b> na váš
           daňový úrad. V prípade osobného podania na daňovom úrade je potrebné
           predložiť aj Potvrdenie o podaní daňového priznania. Ak patríte medzi
           daňovníkov, ktorí majú povinnosť podávať daňové priznanie
@@ -73,13 +72,12 @@ const SupportUs = () => {
       <p className=" font-bold">Právnické osoby (PO)</p>
       <ul>
         <li>
-          1. Právnické osoby môžu asignovať 2 % len v tom prípade, ak počas roka
+          Právnické osoby môžu asignovať 2 % len v tom prípade, ak počas roka
           alebo najneskôr do termínu podania daňového priznania darovali pre
           neziskové organizácie sumu vo výške minimálne 0,5 % zaplatenej dane. V
           opačnom prípade môžu poukázať len 1,5 % zaplatenej dane.
         </li>
         <li>
-          2.{" "}
           <a target="_blank" rel="noopener noreferrer" href={pravOsobaUrl}>
             Daňové priznanie právnických osôb
           </a>{" "}
