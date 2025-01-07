@@ -51,13 +51,13 @@ const YearPhotoAlbum = ({ year }: Props) => {
           close={() => setIndex(-1)}
         />
         <div className="grid grid-cols-2">
-          <p className="font-bold lg:pt-5">{year}</p>
+          <p className="font-bold">{year}</p>
           <PhotoAlbum
             photos={thumbnails}
             layout="rows"
             //  columns={10}
             targetRowHeight={66}
-            spacing={2}
+            spacing={0}
             padding={0}
             onClick={({ index: current }) => setIndex(current)}
           />
