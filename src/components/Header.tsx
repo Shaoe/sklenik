@@ -18,6 +18,9 @@ const Header = () => (
       <a href="#galeria" role="tab" className="tab">
         <p className="font-bold">FOTOGALÉRIA</p>
       </a>
+      <a href="#support_us" role="tab" className="tab">
+        <p className=" font-bold">2%</p>
+      </a>
       <a href="#kontakt" role="tab" className="tab">
         <p className=" font-bold">KONTAKT</p>
       </a>
