@@ -23,7 +23,6 @@ const Footer = () => (
             oz.skleniky@gmail.com
           </a>
           <br />
-          <p className="font-bold">Peter Ondrejka</p>
           <p>+421949 131 669</p>
         </nav>
         <nav>
