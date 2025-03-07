@@ -1,12 +1,12 @@
 const SupportUs = () => {
   const zamestnanecUrl =
-    "https://drive.google.com/file/d/1hzHa43GVO_43xKVfnpBfgUZ8CIIBhKEl/view";
+    "https://drive.google.com/file/d/1rHyWGqHTCFWzrV8xMmfiSJ9KtTcYrG93/view";
   const fizOsobaAUrl =
-    "https://drive.google.com/file/d/1B7KnvvR7tUhbaHQMy1JVkU0BOsDy0T8I/view";
+    "https://drive.google.com/file/d/1ENQwD8fOs_wMz27BYN9-8c35qC6n_U0w/view";
   const fizOsobaBUrl =
-    "https://drive.google.com/file/d/1WgQJdsSDYutHZUmL8gbgkBTeFYD-rhXe/view";
+    "https://drive.google.com/file/d/1SEi7ZWrrHtXsovDAJ_mbOaKHNKvsQlXF/view";
   const pravOsobaUrl =
-    "https://drive.google.com/file/d/1Vli_UFIBFNT-s9U2hnIZJZyQNDNrnxAu/view";
+    "https://drive.google.com/file/d/1Yubk8WlumBvSOVpu9xunUgxtNWk7i5Jy/view";
   // const dobrovolnikUrl =
   //   "https://drive.google.com/file/d/1hzHa43GVO_43xKVfnpBfgUZ8CIIBhKEl/view"; //TODO zla linka
 
