@@ -30,7 +30,7 @@ const SupportUs = () => {
       <p className=" font-bold">Zamestnanci</p>
       <ul>
         <li>
-          Do <b>15.2.2025</b> požiadajte zamestnávateľa o vykonanie ročného
+          Do <b>15.2.2026</b> požiadajte zamestnávateľa o vykonanie ročného
           zúčtovania preddavkov na daň z príjmov a vystavenie potvrdenia o
           zaplatení dane.
         </li>
@@ -42,7 +42,7 @@ const SupportUs = () => {
           zaplatenej dane.
         </li>
         <li>
-          Najneskôr do <b>30.4.2025</b> pošlite vyhlásenie daňovému úradu v
+          Najneskôr do <b>30.4.2026</b> pošlite vyhlásenie daňovému úradu v
           mieste vášho trvalého bydliska.
         </li>
       </ul>
@@ -69,11 +69,11 @@ const SupportUs = () => {
           , Potvrdenie o podaní daňového priznania.
         </li>
         <li>
-          Riadne vyplnené daňové priznanie pošlite do <b>31.3.2025</b> na váš
+          Riadne vyplnené daňové priznanie pošlite do <b>31.3.2026</b> na váš
           daňový úrad. V prípade osobného podania na daňovom úrade je potrebné
           predložiť aj Potvrdenie o podaní daňového priznania. Ak patríte medzi
           daňovníkov, ktorí majú povinnosť podávať daňové priznanie
-          elektronicky, do <b>31.3.2025</b> odošlite daňové priznanie
+          elektronicky, do <b>31.3.2026</b> odošlite daňové priznanie
           prostredníctvom elektronického systému.
         </li>
       </ul>
@@ -89,7 +89,7 @@ const SupportUs = () => {
           <a target="_blank" rel="noopener noreferrer" href={pravOsobaUrl}>
             Daňové priznanie právnických osôb
           </a>{" "}
-          podajte elektronicky do <b>31.3.2025</b>.
+          podajte elektronicky do <b>31.3.2026</b>.
         </li>
       </ul>
       <p className=" font-bold">Pracovali ste ako dobrovoľník? Darujte 3%</p>
