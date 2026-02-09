@@ -1,12 +1,12 @@
 const SupportUs = () => {
-  const zamestnanecUrl =
-    "https://drive.google.com/file/d/1rHyWGqHTCFWzrV8xMmfiSJ9KtTcYrG93/view";
+  const vyhlasenieUrl =
+    "https://drive.google.com/file/d/1YHFMoNNELAY2OqiP0cyDbulOTR1Z65AJ/view";
   const fizOsobaAUrl =
-    "https://drive.google.com/file/d/1ENQwD8fOs_wMz27BYN9-8c35qC6n_U0w/view";
+    "https://drive.google.com/file/d/11cppjH9CblILWg7trx3dpRpEVOUZOy0I/view";
   const fizOsobaBUrl =
-    "https://drive.google.com/file/d/1SEi7ZWrrHtXsovDAJ_mbOaKHNKvsQlXF/view";
+    "https://drive.google.com/file/d/1RgO3_Vb3HQ9QQHDJLlgz5zcqDDDhzyim/view";
   const pravOsobaUrl =
-    "https://drive.google.com/file/d/1Yubk8WlumBvSOVpu9xunUgxtNWk7i5Jy/view";
+    "https://drive.google.com/file/d/1h95Obe1pfxHkDGQJ3E-dnJcSJMO1RAQ3/view";
   // const dobrovolnikUrl =
   //   "https://drive.google.com/file/d/1hzHa43GVO_43xKVfnpBfgUZ8CIIBhKEl/view"; //TODO zla linka
 
@@ -16,7 +16,17 @@ const SupportUs = () => {
       className="prose max-w-full text-base-content border-t border-base-300 text-justify lg:text-left"
     >
       <p className="font-bold text-center">PODPORTE NÁS DAROVANÍM 2%</p>
-
+      <p className="font-bold">
+        2% môžete od roku 2026 poukázať až trikrát! Nebojte sa ich venovať
+        všetkým adresátom, a to:
+      </p>
+      <ul className="font-bold">
+        <li> – možnosť adresovať 2 % z dane neziskovej organizácii,</li>
+        <li>– možnosť adresovať 2% aj svojim rodičom na dôchodku.</li>
+      </ul>
+      Tzn, že 2 % venujete pre jedného rodiča, 2 % pre druhého a stále môžete
+      poukázať 2 % (alebo 3 % ako dobrovoľník) aj vybranej neziskovej
+      organizácii.
       <p className=" font-bold">Zamestnanci</p>
       <ul>
         <li>
@@ -25,7 +35,7 @@ const SupportUs = () => {
           zaplatení dane.
         </li>
         <li>
-          <a target="_blank" rel="noopener noreferrer" href={zamestnanecUrl}>
+          <a target="_blank" rel="noopener noreferrer" href={vyhlasenieUrl}>
             Vyplňte vyhlásenie o poukázaní 2% dane
           </a>
           . Uveďte meno, rodné číslo, bydlisko a sumu zodpovedajúcu 2%
@@ -36,7 +46,6 @@ const SupportUs = () => {
           mieste vášho trvalého bydliska.
         </li>
       </ul>
-
       <p className=" font-bold">
         Ak podávate daňové priznanie sami ako fyzické osoby (FO)
       </p>
@@ -68,7 +77,6 @@ const SupportUs = () => {
           prostredníctvom elektronického systému.
         </li>
       </ul>
-
       <p className=" font-bold">Právnické osoby (PO)</p>
       <ul>
         <li>
@@ -84,7 +92,6 @@ const SupportUs = () => {
           podajte elektronicky do <b>31.3.2025</b>.
         </li>
       </ul>
-
       <p className=" font-bold">Pracovali ste ako dobrovoľník? Darujte 3%</p>
       <p>
         Ak ste v roku 2024 pracovali aspoň 40 hodín ako dobrovoľník, máte
