@@ -21,8 +21,8 @@ const SupportUs = () => {
         všetkým adresátom, a to:
       </p>
       <ul className="font-bold">
-        <li> – možnosť adresovať 2 % z dane neziskovej organizácii,</li>
-        <li>– možnosť adresovať 2% aj svojim rodičom na dôchodku.</li>
+        <li>možnosť adresovať 2 % z dane neziskovej organizácii,</li>
+        <li>možnosť adresovať 2% aj svojim rodičom na dôchodku.</li>
       </ul>
       Tzn, že 2 % venujete pre jedného rodiča, 2 % pre druhého a stále môžete
       poukázať 2 % (alebo 3 % ako dobrovoľník) aj vybranej neziskovej
