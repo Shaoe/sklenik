@@ -94,7 +94,7 @@ const SupportUs = () => {
       </ul>
       <p className=" font-bold">Pracovali ste ako dobrovoľník? Darujte 3%</p>
       <p>
-        Ak ste v roku 2024 pracovali aspoň 40 hodín ako dobrovoľník, máte
+        Ak ste v roku 2025 pracovali aspoň 40 hodín ako dobrovoľník, máte
         možnosť venovať 3% z dane -{" "}
         {/* <a target="_blank" rel="noopener noreferrer" href={dobrovolnikUrl}> */}
         požiadajte organizáciu, pre ktorú ste pracovali ako dobrovoľník/čka o
