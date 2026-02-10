@@ -6,10 +6,10 @@ import BottomLine from "./components/BottomLine";
 import LayeredImage from "./components/LayeredImage";
 
 import img1 from "./assets/1.jpg";
-import logo from "./assets/logo_final_invert_16_centered.png";
+//import logo from "./assets/logo_final_invert_16_centered.png";
+import logo from "./assets/DARUJTE_2_16.png";
 import img2 from "./assets/2.jpg";
 import img3 from "./assets/3.jpg";
-// import sklenikLogo from "../assets/logo_final.png";
 
 function App() {
   return (
