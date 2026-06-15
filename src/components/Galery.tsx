@@ -10,6 +10,10 @@ const Galery = () => {
       <YearPhotoAlbum year={2022} />
 
       <YearPhotoAlbum year={2023} />
+
+      <YearPhotoAlbum year={2024} />
+
+      <YearPhotoAlbum year={2025} />
       <div />
     </div>
   );

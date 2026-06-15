@@ -113,6 +113,26 @@ const importThumbnailsGlob = (year: number) => {
           }
         )
       );
+    case 2024:
+      return Object.values(
+        import.meta.glob(
+          `/src/assets/2024/small/thumbnail/*.{png,jpg,JPG,jpeg,PNG,JPEG}`,
+          {
+            eager: true,
+            as: "url",
+          }
+        )
+      );
+    case 2025:
+      return Object.values(
+        import.meta.glob(
+          `/src/assets/2025/small/thumbnail/*.{png,jpg,JPG,jpeg,PNG,JPEG}`,
+          {
+            eager: true,
+            as: "url",
+          }
+        )
+      );
     default:
       return [];
   }
@@ -144,6 +164,26 @@ const importImagesGlob = (year: number) => {
       return Object.values(
         import.meta.glob(
           `/src/assets/2023/small/*.{png,jpg,JPG,jpeg,PNG,JPEG}`,
+          {
+            eager: true,
+            as: "url",
+          }
+        )
+      );
+    case 2024:
+      return Object.values(
+        import.meta.glob(
+          `/src/assets/2024/small/*.{png,jpg,JPG,jpeg,PNG,JPEG}`,
+          {
+            eager: true,
+            as: "url",
+          }
+        )
+      );
+    case 2025:
+      return Object.values(
+        import.meta.glob(
+          `/src/assets/2025/small/*.{png,jpg,JPG,jpeg,PNG,JPEG}`,
           {
             eager: true,
             as: "url",
