@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@types/node": "^20.19.37",
+    "@types/node": "^24.0.0",
     "eslint": "^9.39.4",
     "react": "^18.3.1",
     "react-daisyui": "^5.0.5",
@@ -36,6 +36,9 @@
     "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3",
     "vite": "^5.4.21"
+  },
+  "engines": {
+    "node": ">=24"
   },
   "pnpm": {
     "overrides": {
